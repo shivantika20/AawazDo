@@ -75,6 +75,7 @@ public class AwaazDoUI {
             } else {
                 System.out.println("Passed");
             }
+            driver.close();
         }
     }
 }
